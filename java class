@@ -1,0 +1,17 @@
+// Main.java
+public class Main {
+    public static void main(String[] args) {
+        // Create a new Person object
+        Person person1 = new Person("Alice", 30);
+        person1.displayInfo();
+
+        // Modify the person's information
+        person1.setAge(31);
+        person1.setName("Alice Smith");
+        person1.displayInfo();
+        
+        // Create another Person object
+        Person person2 = new Person("Bob", 25);
+        person2.displayInfo();
+    }
+}
